@@ -1,0 +1,254 @@
+[
+  {
+    "image": "bonus-apresentacao",
+    "original_bytes": 223340,
+    "variants": [
+      [
+        400,
+        "bonus-apresentacao-400w.webp",
+        30832
+      ],
+      [
+        640,
+        "bonus-apresentacao-640w.webp",
+        66824
+      ],
+      [
+        1000,
+        "bonus-apresentacao-1000w.webp",
+        138350
+      ]
+    ]
+  },
+  {
+    "image": "bonus-custos",
+    "original_bytes": 184322,
+    "variants": [
+      [
+        400,
+        "bonus-custos-400w.webp",
+        28782
+      ],
+      [
+        640,
+        "bonus-custos-640w.webp",
+        61072
+      ],
+      [
+        1000,
+        "bonus-custos-1000w.webp",
+        124182
+      ]
+    ]
+  },
+  {
+    "image": "bonus-pedidos",
+    "original_bytes": 185222,
+    "variants": [
+      [
+        400,
+        "bonus-pedidos-400w.webp",
+        29144
+      ],
+      [
+        640,
+        "bonus-pedidos-640w.webp",
+        58764
+      ],
+      [
+        1000,
+        "bonus-pedidos-1000w.webp",
+        115522
+      ]
+    ]
+  },
+  {
+    "image": "cremosos",
+    "original_bytes": 106934,
+    "variants": [
+      [
+        400,
+        "cremosos-400w.webp",
+        32476
+      ],
+      [
+        640,
+        "cremosos-640w.webp",
+        67282
+      ],
+      [
+        667,
+        "cremosos-667w.webp",
+        77838
+      ]
+    ]
+  },
+  {
+    "image": "frutados",
+    "original_bytes": 73470,
+    "variants": [
+      [
+        400,
+        "frutados-400w.webp",
+        23146
+      ],
+      [
+        640,
+        "frutados-640w.webp",
+        44420
+      ],
+      [
+        667,
+        "frutados-667w.webp",
+        50986
+      ]
+    ]
+  },
+  {
+    "image": "licor-cafe",
+    "original_bytes": 106698,
+    "variants": [
+      [
+        400,
+        "licor-cafe-400w.webp",
+        18126
+      ],
+      [
+        640,
+        "licor-cafe-640w.webp",
+        34932
+      ],
+      [
+        1000,
+        "licor-cafe-1000w.webp",
+        67100
+      ]
+    ]
+  },
+  {
+    "image": "licor-chocolate",
+    "original_bytes": 142696,
+    "variants": [
+      [
+        400,
+        "licor-chocolate-400w.webp",
+        23112
+      ],
+      [
+        640,
+        "licor-chocolate-640w.webp",
+        45662
+      ],
+      [
+        1000,
+        "licor-chocolate-1000w.webp",
+        88946
+      ]
+    ]
+  },
+  {
+    "image": "licor-coco",
+    "original_bytes": 102510,
+    "variants": [
+      [
+        400,
+        "licor-coco-400w.webp",
+        16928
+      ],
+      [
+        640,
+        "licor-coco-640w.webp",
+        32072
+      ],
+      [
+        1000,
+        "licor-coco-1000w.webp",
+        61996
+      ]
+    ]
+  },
+  {
+    "image": "licor-doce-de-leite",
+    "original_bytes": 106062,
+    "variants": [
+      [
+        400,
+        "licor-doce-de-leite-400w.webp",
+        18364
+      ],
+      [
+        640,
+        "licor-doce-de-leite-640w.webp",
+        33408
+      ],
+      [
+        1000,
+        "licor-doce-de-leite-1000w.webp",
+        62212
+      ]
+    ]
+  },
+  {
+    "image": "licor-maracuja",
+    "original_bytes": 109910,
+    "variants": [
+      [
+        400,
+        "licor-maracuja-400w.webp",
+        19558
+      ],
+      [
+        640,
+        "licor-maracuja-640w.webp",
+        36402
+      ],
+      [
+        1000,
+        "licor-maracuja-1000w.webp",
+        68758
+      ]
+    ]
+  },
+  {
+    "image": "licor-morango",
+    "original_bytes": 120298,
+    "variants": [
+      [
+        400,
+        "licor-morango-400w.webp",
+        19306
+      ],
+      [
+        640,
+        "licor-morango-640w.webp",
+        37892
+      ],
+      [
+        1000,
+        "licor-morango-1000w.webp",
+        73478
+      ]
+    ]
+  },
+  {
+    "image": "mockup",
+    "original_bytes": 284106,
+    "variants": [
+      [
+        480,
+        "mockup-480w.webp",
+        29850
+      ],
+      [
+        800,
+        "mockup-800w.webp",
+        64928
+      ],
+      [
+        1200,
+        "mockup-1200w.webp",
+        118970
+      ]
+    ]
+  }
+]

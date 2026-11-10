@@ -1,0 +1,13 @@
+{
+  "name": "licores-por-encomenda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Página de vendas completa e estática do projeto Licores por Encomenda",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/verify.mjs",
+    "check": "node scripts/verify.mjs"
+  },
+  "engines": {"node": ">=20"}
+}

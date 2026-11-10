@@ -1,0 +1,14 @@
+import {readFileSync,existsSync} from 'node:fs';
+import {resolve,dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import vm from 'node:vm';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const html=readFileSync(resolve(root,'dist/index.html'),'utf8');
+const assets=[...html.matchAll(/assets\/[a-zA-Z0-9_.-]+\.(?:webp|woff2)/g)].map(m=>m[0]);
+for(const asset of new Set(assets))if(!existsSync(resolve(root,'dist',asset)))throw Error(`Arquivo ausente: ${asset}`);
+for(const [i,match] of [...html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/g)].entries())new vm.Script(match[1],{filename:`inline-script-${i}.js`});
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+if(new Set(ids).size!==ids.length)throw Error('IDs duplicados no HTML');
+if((html.match(/class="flavor-card"/g)||[]).length!==6)throw Error('O carrossel deve conter seis sabores');
+if(!html.includes('fetchpriority="high"')||!html.includes('srcset='))throw Error('Otimização de imagens ausente');
+console.log(`Verificado: ${new Set(assets).size} arquivos, JavaScript válido, seis sabores e nenhuma referência ausente.`);
