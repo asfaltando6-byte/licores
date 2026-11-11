@@ -41,4 +41,4 @@ O ganho efetivo de velocidade depende do dispositivo, da conexão e da hospedage
 
 ## Estado comercial preservado
 
-O plano Básico mostra R$ 6,90 e 20 receitas. O Premium mostra R$ 17,00, 60 receitas e três bônus. Os botões de compra ainda abrem o aviso de que o checkout será disponibilizado em breve. Para vender, substitua esse comportamento pelos links reais dos checkouts. Este projeto contém o site e as imagens; os PDFs comerciais das receitas e bônus não fazem parte dos arquivos existentes.
+O plano Básico mostra R$ 6,90 e 20 receitas. O Premium mostra R$ 17,00, 60 receitas e três bônus. Os botões de compra levam diretamente ao checkout Cakto de cada plano: Básico em https://pay.cakto.com.br/f3icmzr_1307247 e Premium em https://pay.cakto.com.br/34vc5pu. Este projeto contém o site e as imagens; os PDFs comerciais das receitas e bônus não fazem parte dos arquivos existentes.

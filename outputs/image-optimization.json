@@ -231,23 +231,23 @@
     ]
   },
   {
-    "image": "mockup",
-    "original_bytes": 284106,
+    "image": "mockup-v2",
+    "original_bytes": 286718,
     "variants": [
       [
         480,
-        "mockup-480w.webp",
-        29850
+        "mockup-v2-480w.webp",
+        45592
       ],
       [
         800,
-        "mockup-800w.webp",
-        64928
+        "mockup-v2-800w.webp",
+        97458
       ],
       [
         1200,
-        "mockup-1200w.webp",
-        118970
+        "mockup-v2-1200w.webp",
+        186890
       ]
     ]
   }

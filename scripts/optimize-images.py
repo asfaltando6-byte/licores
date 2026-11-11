@@ -12,7 +12,7 @@ if 'imagesrcset=' in html:
 used=sorted(set(re.findall(r'src="assets/([^"/]+)\.webp"',html)))
 stats=[]
 for stem in used:
-    image=Image.open(assets/(stem+'.webp')).convert('RGB')
+    image=Image.open(assets/(stem+'.webp')).convert('RGBA')
     widths=[480,800,1200] if stem=='mockup' else [400,640,1000]
     widths=[w for w in widths if w<=image.width]
     if not widths or widths[-1]<min(image.width,1000): widths.append(min(image.width,1000))
