@@ -42,3 +42,9 @@ O ganho efetivo de velocidade depende do dispositivo, da conexão e da hospedage
 ## Estado comercial preservado
 
 O plano Básico mostra R$ 6,90 e 20 receitas. O Premium mostra R$ 17,00, 60 receitas e três bônus. Os botões de compra levam diretamente ao checkout Cakto de cada plano: Básico em https://pay.cakto.com.br/f3icmzr_1307247 e Premium em https://pay.cakto.com.br/34vc5pu. Este projeto contém o site e as imagens; os PDFs comerciais das receitas e bônus não fazem parte dos arquivos existentes.
+
+## Carregamento e medição
+
+O pixel Meta é inicializado no começo do head e envia apenas PageView, uma vez por carregamento. O mockup usa AVIF com fallback WebP, pré-carregamento compatível e tamanhos próximos da largura exibida. As novas imagens têm nomes próprios para evitar cache antigo. Os assets podem ser reutilizados pelo navegador por 24 horas; o HTML continua sendo revalidado.
+
+O rastreador de visitas e cliques no checkout mantém os UTMs e funciona mesmo quando randomUUID, armazenamento de sessão ou sendBeacon não estão disponíveis. Os dados de visita desse rastreador não são equivalentes à atribuição de PageView do Meta.

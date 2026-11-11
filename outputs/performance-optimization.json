@@ -1,0 +1,61 @@
+{
+  "images": [
+    {
+      "file": "mockup-fast-400w.webp",
+      "bytes": 29988,
+      "width": 400
+    },
+    {
+      "file": "mockup-fast-400w.avif",
+      "bytes": 16585,
+      "width": 400
+    },
+    {
+      "file": "mockup-fast-640w.webp",
+      "bytes": 58898,
+      "width": 640
+    },
+    {
+      "file": "mockup-fast-640w.avif",
+      "bytes": 32057,
+      "width": 640
+    },
+    {
+      "file": "mockup-fast-960w.webp",
+      "bytes": 107770,
+      "width": 960
+    },
+    {
+      "file": "mockup-fast-960w.avif",
+      "bytes": 57373,
+      "width": 960
+    },
+    {
+      "file": "mockup-fast-1200w.webp",
+      "bytes": 150742,
+      "width": 1200
+    },
+    {
+      "file": "mockup-fast-1200w.avif",
+      "bytes": 80546,
+      "width": 1200
+    },
+    {
+      "file": "hero-bg-fast-600w.webp",
+      "bytes": 12650,
+      "width": 600
+    },
+    {
+      "file": "hero-bg-fast-1200w.webp",
+      "bytes": 29786,
+      "width": 1200
+    }
+  ],
+  "comparison": {
+    "mockup_1200_before_bytes": 186890,
+    "mockup_1200_avif_after_bytes": 80546,
+    "mobile_background_before_bytes": 23432,
+    "mobile_background_after_bytes": 12650
+  },
+  "note": "Comparação de peso dos arquivos; não representa medição de velocidade nem garantia de connect rate."
+}
