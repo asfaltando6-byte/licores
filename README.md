@@ -48,3 +48,11 @@ O plano Básico mostra R$ 6,90 e 20 receitas. O Premium mostra R$ 17,00, 60 rece
 O pixel Meta é inicializado no começo do head e envia apenas PageView, uma vez por carregamento. O mockup usa AVIF com fallback WebP, pré-carregamento compatível e tamanhos próximos da largura exibida. As novas imagens têm nomes próprios para evitar cache antigo. Os assets podem ser reutilizados pelo navegador por 24 horas; o HTML continua sendo revalidado.
 
 O rastreador de visitas e cliques no checkout mantém os UTMs e funciona mesmo quando randomUUID, armazenamento de sessão ou sendBeacon não estão disponíveis. Os dados de visita desse rastreador não são equivalentes à atribuição de PageView do Meta.
+
+
+## Atualização de apresentação — 12/11/2026
+- Página reorganizada conforme referência: hero com mockup preservado, sabores, cinco passos, galeria, bônus, ofertas e FAQ.
+- Seção de cálculo e simulação removida.
+- Ofertas: Básico 100 receitas por R$ 6,90; Premium 200 receitas + 3 bônus por R$ 17,00.
+- Preservados os links Cakto, o Pixel PageView e o encaminhamento de UTM.
+- Atenção operacional: os PDFs entregues anteriormente ainda precisam ser ampliados para as novas quantidades; esta alteração cobre a página de vendas.
